@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/tshih5/tshih5.github.io)
-- Live Site URL: [Add live site URL here](tshih5.github.io)
+- Solution URL: [GitHub Repository](https://github.com/tshih5/tshih5.github.io)
+- Live Site URL: [Live Site](tshih5.github.io)
 
 ## My process
 
