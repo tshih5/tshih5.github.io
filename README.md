@@ -48,34 +48,17 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to add custom styling for mobile device sizes, and how to align items using flexbox
-
-
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I learned how to add custom styling for mobile device sizes, and how to align items using flexbox. I also learned a bit about organizing my css structure.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would like to learn more about custom styling and best practices when styling components.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+- [FLEXBOX](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-properties) - This helped me learn flexbox and content ordering.
 
 
 ## Acknowledgments
