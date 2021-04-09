@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/*FONTS*/
+body{
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+a{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/*BUTTON*/
+.card a.learn-more{
+    margin-top: 5rem;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.card .bottom{
+    align-self: flex-end;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.card.sedan a.learn-more{
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    
+}
+
+.card.suv a.learn-more{
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.card.luxury a.learn-more{
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.card a.learn-more:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    max-width: 50rem;
+}
+
+/*FOOTER*/
+.attribution{
+    display: block;
+}
+/*CARDS*/
+.wrapper{
+    display: flex;
+    border: 1px solid red;
+    height: 100%;
+    min-height: 100vh;
+    align-content: center;
+}
+
+.card-container{
+    display: flex;
+    width: 53rem;
+    margin: auto;
+}
+
+.card{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 4rem;
+}
+
+.card h1{
+    color: hsl(0, 0%, 95%)
+}
+
+.card p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.card.sedan{
+    border-radius: 6px 0px 0px 6px;
+}
+
+.card.luxury {
+    border-radius:  0px 6px 6px 0px;
+}
+
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (max-width: 376px) {
+    .wrapper{
+        height: 100%;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+
+    .card.sedan{
+        border-radius: 6px 6px 0px 0px;
+    }
+    
+    .card.luxury {
+        border-radius:  0px 0px 6px 6px;
+    }
+}
+
