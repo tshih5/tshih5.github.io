@@ -21,7 +21,7 @@ a{
 /*BUTTON*/
 .card a.learn-more{
     margin-top: 5rem;
-    border-radius: 30px;
+    border-radius: 2rem;
     padding: 10px 20px;
     border: 2px solid hsl(0, 0%, 95%);
 }
